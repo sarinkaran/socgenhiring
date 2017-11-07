@@ -1,0 +1,37 @@
+- id: 10000
+  name:  Apparel 
+- id: 10001
+  name:  Men's wear
+  parent:
+    id: 10000
+- id: 10005
+  name: Shirts
+  parent: 
+    id: 10001
+- id: 10010
+  name: Trousers
+  parent: 
+    id: 10001
+- id: 10015
+  name: Casuals
+  parent: 
+    id: 10010
+  discount: 0.30
+- id: 10020
+  name: Jeans
+  parent: 
+   id: 10010
+  discount: 0.20
+- id: 20001
+  name:  Women's wear
+  discount: 0.50
+  parent: 
+    id: 10000
+- id: 20010
+  name:  Dresses
+  parent: 
+    id: 20001
+- id: 20015
+  name:  Footwear
+  parent: 
+    id: 20001  

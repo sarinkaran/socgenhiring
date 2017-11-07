@@ -1,0 +1,14 @@
+- id: 50000
+  name: Wrangler
+  discount: .10
+- id: 50001  
+  name: Arrow
+  discount: .20
+- id:  50002
+  name: Vero Moda
+  discount: .60
+- id: 50003      
+  name: UCB
+- id: 5004
+  name:  Provogue
+  discount: .20            
